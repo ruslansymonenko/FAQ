@@ -78,9 +78,12 @@ body{
   height: 0px;
   opacity: 0;
   padding: 5px;
+  transition: all .5s;
+  transform: translateY(-50px);
 }
 
 .faq-text-active{
-  height: 50px;
+  height: 60px;
   opacity: 1;
+  transform: translateY(0px);
 }
